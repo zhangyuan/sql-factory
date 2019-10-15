@@ -1,18 +1,18 @@
-package com.example.samples;
+package sql_factory.samples;
 
-import com.example.db.Column;
-import com.example.db.Query;
-import com.example.db.Table;
-import com.example.db.search_condition.And;
-import com.example.db.search_condition.Brace;
-import com.example.db.search_condition.Equal;
-import com.example.db.search_condition.Expression;
+import sql_factory.core.Column;
+import sql_factory.core.Query;
+import sql_factory.core.Table;
+import sql_factory.core.search_condition.And;
+import sql_factory.core.search_condition.Brace;
+import sql_factory.core.search_condition.Equal;
+import sql_factory.core.search_condition.Expression;
 
 import java.util.Arrays;
 
-public class Main {
+public class QueryBuilder {
     public static void main(String[] args) {
-        Query query = new Query();
+        sql_factory.core.Query query = new sql_factory.core.Query();
 
         Table leadTable = Definition.leadTable;
         Table dimLeadTypeTable = Definition.dimLeadTypeTable;

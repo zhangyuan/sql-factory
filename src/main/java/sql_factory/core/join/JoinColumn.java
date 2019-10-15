@@ -1,7 +1,7 @@
-package com.example.db.join;
+package sql_factory.core.join;
 
-import com.example.db.Column;
-import com.example.db.Table;
+import sql_factory.core.Column;
+import sql_factory.core.Table;
 
 public class JoinColumn extends Column {
     public JoinColumn(Table table, String column_name) {

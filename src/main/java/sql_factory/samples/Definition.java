@@ -1,7 +1,7 @@
-package com.example.samples;
+package sql_factory.samples;
 
-import com.example.db.Column;
-import com.example.db.Table;
+import sql_factory.core.Column;
+import sql_factory.core.Table;
 
 public class Definition {
     public static final Table leadTable = new Table("lead").withColumn(

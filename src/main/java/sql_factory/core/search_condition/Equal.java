@@ -1,6 +1,6 @@
-package com.example.db.search_condition;
+package sql_factory.core.search_condition;
 
-import com.example.db.Column;
+import sql_factory.core.Column;
 
 public class Equal implements Condition {
     private final Column leftColumn;

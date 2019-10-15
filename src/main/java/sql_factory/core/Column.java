@@ -1,4 +1,4 @@
-package com.example.db;
+package sql_factory.core;
 
 public class Column {
     protected String name;

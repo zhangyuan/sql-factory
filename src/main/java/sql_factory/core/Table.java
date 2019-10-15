@@ -1,6 +1,6 @@
-package com.example.db;
+package sql_factory.core;
 
-import com.example.db.join.JoinColumn;
+import sql_factory.core.join.JoinColumn;
 
 import java.util.ArrayList;
 import java.util.Arrays;

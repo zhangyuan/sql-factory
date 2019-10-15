@@ -1,7 +1,7 @@
-package com.example.db;
+package sql_factory.core;
 
-import com.example.db.join.InnerJoin;
-import com.example.db.search_condition.Condition;
+import sql_factory.core.join.InnerJoin;
+import sql_factory.core.search_condition.Condition;
 
 import java.util.ArrayList;
 import java.util.List;
