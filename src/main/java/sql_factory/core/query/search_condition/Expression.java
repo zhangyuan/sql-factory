@@ -1,4 +1,4 @@
-package sql_factory.core.search_condition;
+package sql_factory.core.query.search_condition;
 
 public class Expression implements Condition {
     private final String expression;

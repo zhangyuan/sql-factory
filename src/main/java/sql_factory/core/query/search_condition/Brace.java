@@ -1,4 +1,4 @@
-package sql_factory.core.search_condition;
+package sql_factory.core.query.search_condition;
 
 public class Brace implements Condition {
     private Condition condition;
